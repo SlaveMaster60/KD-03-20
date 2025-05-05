@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-import VemaluVedaras from './assets/components/VemaluVedaras'
+import { Link } from "react-router"
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <VemaluVedaras />
+     <p>Ni___r</p>
+     <Link to={"/about"}>About Page</Link>
     </>
   )
 }

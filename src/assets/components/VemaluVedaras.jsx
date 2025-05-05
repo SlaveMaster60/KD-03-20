@@ -8,10 +8,9 @@ const [z, setZ] = useState (0);
 
 const [ answer, setAnswer] = useState (0)
 
-useEffect (() {
+useEffect(() => {
     let ans = x;
-    ans = ans * y +
-
+    ans = ans * y;
 }, [x, y, z]);
 
     return (
